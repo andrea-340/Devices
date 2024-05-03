@@ -1,0 +1,147 @@
+@media all and (max-width: 1690px) {
+
+}
+@media all and (max-width: 1280px) { 
+}
+@media all and (max-width: 980px) {
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 480px) {
+  .box2 {
+    position: relative;right: -120px;
+    font-size: 20px;
+  }
+  .box3 {
+    position:relative; top: 45px;
+  }
+  .box4 {
+    position: relative;top: 78px;
+  }
+  .box5 {
+    position:relative;right: 350px;
+  }
+}
+body {
+  background-color: #f6f2f2; /* Cambia questo valore con il colore desiderato */
+}
+
+.menu {
+    font-size: 20PX;
+}
+.future {
+    text-decoration:dotted;
+    color: rgb(7, 7, 10);
+    border-bottom: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style:outset;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 8px;
+    position: relative;right: -10px;
+}
+h1 {
+    position: relative; top: -20px;right: 20px;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: blue;
+}
+h2 {
+  position: relative;top: 750px;
+}
+h3 {
+    position: relative;top:1050px;
+}
+h4 {
+  position: relative; top: 1250px;
+}
+.img {
+  position: relative;right: -300px;top: -120px;
+}
+.social {
+  position: relative; right:50px;top: -535px;
+  display: flex;
+}
+.button {
+  position: relative;top: -290px;
+  border-bottom: #000;
+  border-radius: 10px;
+  font-size: 30px;
+  border-style:ridge ;
+  background-color: rgb(0, 106, 255);
+  cursor: pointer;
+}
+.download-button {
+  padding: 10px 20px;
+  font-size: 12px; 
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 2px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  position: relative;top: -295px;
+}
+.ipad {
+  position: relative;top: 10px;
+}
+.mac {
+  position: relative;top: 20px;
+}
+.iphone {
+  position: relative;top: 30px;
+}
+.airpods {
+  position: relative;top: 40px;
+}
+.dropbtn {
+    background-color: #dd6363;
+    color: #000;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border: #000;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border: #160e0e;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ec9999;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+  .dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+.sam {
+    position: relative; top: 200px;
+    cursor: pointer;
+}
+.xiaomi {
+  position: relative; top: 400px;
+  cursor: pointer;
+}
