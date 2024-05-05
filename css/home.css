@@ -8,54 +8,76 @@
 }
 @media all and (max-width: 736px) {
 
+
 }
 @media all and (max-width: 480px) {
-  .box2 {
-    position: relative;right: -10px;top: 20px;
-    font-size: 20px;
+  .box {
+    position: relative; right: 480px; top: 20px;
   }
-  .box3 {
-    position:relative; top: 45px;
+  .box1 {
+    position: relative;right: 300px; top: 80px;
+  }
+  .box2 {
+    position: relative; top: -310px;
+  }
+  .box3 h1 {
+    position: relative;right: -10px;top: -740px;
+    font-size: 30px;
   }
   .box4 {
-    position: relative;top: 78px;
+    position:relative; top: 45px;
   }
   .box5 {
-    position:relative;right: 350px;
+    position: relative;top: 78px;
+  }
+  .box6 {
+    position: relative;top: -380px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown .dropbtn::after {
+    display: none;
   }
 }
-body {
-  background-color: #f6f2f2; /* Cambia questo valore con il colore desiderato */
+.img1 {
+  position: relative; top: 60px; right: -600px;
 }
-
+.img2 {
+  position: relative;right: -400px;
+}
 .menu {
     font-size: 20PX;
 }
 .future {
     text-decoration:dotted;
-    color: rgb(7, 7, 10);
+    color: rgb(247, 247, 247);
     border-bottom: 2px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     border-style:outset;
+    border-radius: 2px;
     font-family: Arial, Helvetica, sans-serif;
     border-top-left-radius: 8px;
-    position: relative;right: -10px;
+    position: relative;right: -10px; top: -420px;
 }
 h1 {
-    position: relative; top: -20px;right: 20px;
+    position: relative; top: -500px;right: 20px;
     font-style: italic;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    color: blue;
+    font-size: 50px;
+    color: rgb(251, 251, 251);
 }
 h2 {
-  position: relative;top: 750px;
+  position: relative;top: 330px;
+  color: rgb(254, 254, 255);
 }
 h3 {
-    position: relative;top:1050px;
+    position: relative;top:650px;
+    color: rgb(255, 255, 255);
 }
 h4 {
-  position: relative; top: 1250px;
+  position: relative; top: 850px;
+  color: rgb(248, 248, 255);
 }
 .img {
   position: relative;right: -300px;top: -120px;
@@ -72,7 +94,6 @@ h4 {
   border-style:ridge ;
   background-color: rgb(0, 106, 255);
   cursor: pointer;
-  color: black;
 }
 .download-button {
   padding: 10px 20px;
@@ -84,6 +105,7 @@ h4 {
   cursor: pointer; 
   transition: background-color 0.3s; 
   position: relative;top: -295px;
+  cursor: pointer;
 }
 .ipad {
   position: relative;top: 10px;
@@ -135,6 +157,14 @@ h4 {
   .dropdown:hover .dropdown-content {
     display: block;
     cursor: pointer;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Nascondi la tendina quando si passa sopra alla freccia */
+.dropdown:hover .dropbtn::after {
+  display: none;
 }
 .sam {
     position: relative; top: 200px;
