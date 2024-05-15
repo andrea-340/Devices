@@ -22,3 +22,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
       document.getElementById('user-name').innerText = 'Ospite';
   }
 });
+DOMContentLoaded
