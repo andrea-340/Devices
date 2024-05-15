@@ -23,3 +23,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }
 });
 DOMContentLoaded
+document.addEventListener('touchstart', function(event) {
+  // Gestisci l'evento touch
+}, false);
